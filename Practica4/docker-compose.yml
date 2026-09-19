@@ -1,0 +1,6 @@
+services:
+  mysql:
+    build: .
+    container_name: practica4_mysql
+    ports:
+      - "3307:3306"
